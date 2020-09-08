@@ -1,5 +1,5 @@
-const checkIfTriangle = (a = 1, b = 1, c = 1) =>
-    a + b > c && a + c > b && c + b > a;
+const checkIfTriangle = (a = 1, b = 1, c = 1) => a + b > c && a + c > b && c + b > a;
+
 const whichType = function (a, b, c) {
     if (a === b && a === c) {
         return "equilateral";
