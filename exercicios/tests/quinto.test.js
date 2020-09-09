@@ -19,11 +19,12 @@ test('string floats', () => {
 })
 
 test('integers', () => {
-    expect(showAsCurrency(1000)).toBe('R$1000,00');
-    expect(showAsCurrency(1248)).toBe('R$1248,00');
+    expect(showAsCurrency(1000)).toBe('R$1.000,00');
+    expect(showAsCurrency(1248)).toBe('R$1.248,00');
+    expect(showAsCurrency(1000000)).toBe('R$1.000.000,00');
 })
 
 test('string integers', () => {
-    expect(showAsCurrency("1000")).toBe('R$1000,00');
-    expect(showAsCurrency("1248")).toBe('R$1248,00');
+    expect(showAsCurrency("1000")).toBe('R$1.000,00');
+    expect(showAsCurrency("1248")).toBe('R$1.248,00');
 })
