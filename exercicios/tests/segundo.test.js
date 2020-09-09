@@ -1,4 +1,4 @@
-const triangleClassification = require("./segundo");
+const triangleClassification = require("../segundo");
 
 test("equilateral triangle", () => {
     expect(triangleClassification(10, 10, 10)).toBe("equilateral");

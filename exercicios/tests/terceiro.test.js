@@ -2,7 +2,7 @@ const {
     baseOverExp,
     baseOverExpWithPow,
     baseOverExpWithLoop,
-} = require("./terceiro");
+} = require("../terceiro");
 
 test.each([
     [2, 0, 1],
