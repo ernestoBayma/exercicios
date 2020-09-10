@@ -11,7 +11,7 @@ e o aluno será aprovado.
 
 const notaFinal = (nota) => {
     if (nota >= 38) {
-        const div5Arren = Math.ceil(nota / 5);
+        const div5Arren = Math.round(nota / 5);
         const resto = (nota / 5) % div5Arren;
         if (resto > 5) {
             return 5 * div5Arren;
