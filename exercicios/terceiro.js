@@ -1,3 +1,7 @@
+/*
+    Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.
+
+*/
 const baseOverExp = (base, exp) => base ** exp;
 const baseOverExpWithPow = (base, exp) => Math.pow(base, exp);
 const baseOverExpWithLoop = (base, exp) => {
