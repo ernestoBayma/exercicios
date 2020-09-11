@@ -5,5 +5,9 @@
   "devDependencies": {
     "jest": "^26.4.2"
   },
-  "license": "ISC"
+  "license": "ISC",
+
+  "jest": {
+    "verbose": true
+  }
 }
